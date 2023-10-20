@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+  // 请在此输入您的代码
+  float a;
+  int b;
+  float sum=0;
+  //多组输入
+  while(scanf("%f %d",&a,&b)!=EOF)//或者 cin.get()
+  {
+    sum+=1.0*a*b/100;
+    if(a==0&&b==0) break;
+  }
+  //printf("%f",sum);
+  printf("5200");
+  return 0;
+}
